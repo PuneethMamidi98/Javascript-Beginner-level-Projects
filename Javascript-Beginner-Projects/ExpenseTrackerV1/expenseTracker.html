@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expenseTracker.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <label for="expenseText">Name of the expense: </label>
+        <input type="text" name="expenseText" id="expenseText" placeholder="Type expense name.. like coffee">
+        <label id="amt" for="amount">Amount: </label>
+        <input type="number" name="amount" id="amount" placeholder="Enter the amount of the expense: ">
+        <button id="mainBtn">Add</button>
+        <ol id="expensesList"></ol>
+        <p id="totalAmount"></p>
+    </div>
+    <script src="expenseTracker.js"></script>
+</body>
+</html>
